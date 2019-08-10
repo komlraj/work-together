@@ -1,6 +1,11 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <div class="timeline-bg">
+      <div class="text-bg">
+        <p class="text">As you start using Know Your Team, here, you'll see a 
+          timeline with all the activities.</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,3 +20,19 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+  .home {
+    background-color: #f6f2ef;
+    height: 190vh;
+  }
+  .timeline-bg {
+    background: url("../assets/timeline-bg.png") center no-repeat;
+    height: 190vh;
+  }
+  .text-bg {
+    background: url("../assets/artical-bg.svg");
+    height: 200px;
+  }
+</style>
+
