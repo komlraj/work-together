@@ -9,7 +9,7 @@
       <nav>
         <router-link to="/timeline">Timeline</router-link>  |
         <router-link to="/toolbox">Toolbox</router-link>  |
-        <router-link to="/toolbox">Guides</router-link>  |
+        <router-link to="/guides">Guides</router-link>  |
         <router-link to="/toolbox">Community</router-link>  |
         <router-link to="/toolbox">Me</router-link>  |
         <router-link to="/toolbox">Team</router-link> 
